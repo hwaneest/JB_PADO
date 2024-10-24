@@ -1,0 +1,5 @@
+title: PADO Book
+author: Donghwan Kim
+logo: logo.png
+execute:
+  execute_notebooks: force

@@ -1,0 +1,32 @@
+# - file: README
+- file: index
+
+- part: About_PADO
+  chapters: 
+  - file: chapters/01_about_pado/intro   						---> intro.md 파일.
+    title: About_PADO 											---> 제목 지정하기
+  #  sections:
+  - file: chapters/01_about_pado/ipynb_01
+  - file: chapters/01_about_pado/ipynb_02
+  - file: chapters/01_about_pado/ipynb_03
+  - file: chapters/01_about_pado/References
+
+- part: Pre_PADO
+  chapters:
+  - file: chapters/02_pre_pado/intro   							---> intro.md 파일.
+    title: Pre_PADO 											---> 제목 지정하기
+  #  sections:
+  - file: chapters/02_pre_pado/ipynb_01
+  - file: chapters/02_pre_pado/ipynb_02
+  - file: chapters/02_pre_pado/ipynb_03
+  - file: chapters/02_pre_pado/References
+
+- part: PADO_2025
+  chapters:
+  - file: chapters/03_pado_2025/intro  							---> intro.md 파일.
+    title: PADO_2025	 										---> 제목 지정하기
+  #  sections:
+  - file: chapters/03_pado_2025/ipynb_01
+  - file: chapters/03_pado_2025/ipynb_02
+  - file: chapters/03_pado_2025/ipynb_03
+  - file: chapters/03_pado_2025/References
