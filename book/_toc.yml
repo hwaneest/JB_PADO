@@ -1,46 +1,34 @@
 format: jb-book
 root: index
-chapters:
-#  - file: chapter1
-#  - file: chapter2
-# - file: README
-- file: index
-
-- part: 01_About_PADO
-  chapters: 
+parts:
+- caption: 01_About_PADO
+  chapters:
   - file: chapters/01_About_PADO/intro
     title: About_PADO
-  #  sections:
   - file: chapters/01_About_PADO/notebook1
   - file: chapters/01_About_PADO/notebook2
   - file: chapters/01_About_PADO/notebook3
   - file: chapters/01_About_PADO/References
-
-- part: 02_Pre_PADO
+- caption: 02_Pre_PADO
   chapters:
   - file: chapters/02_PEOPLE/intro
     title: PEOPLE
-  #  sections:
   - file: chapters/02_PEOPLE/notebook1
   - file: chapters/02_PEOPLE/notebook2
   - file: chapters/02_PEOPLE/notebook3
   - file: chapters/02_PEOPLE/References
-
-- part: 03_Pre_PADO
+- caption: 03_Pre_PADO
   chapters:
   - file: chapters/03_Pre_PADO/intro
     title: PEOPLE
-  #  sections:
   - file: chapters/03_Pre_PADO/notebook1
   - file: chapters/03_Pre_PADO/notebook2
   - file: chapters/03_Pre_PADO/notebook3
   - file: chapters/03_Pre_PADO/References
-
-- part: 04_PADO_2025
+- caption: 04_PADO_2025
   chapters:
   - file: chapters/04_PADO_2025/intro
     title: PEOPLE
-  #  sections:
   - file: chapters/04_PADO_2025/notebook1
   - file: chapters/04_PADO_2025/notebook2
   - file: chapters/04_PADO_2025/notebook3
