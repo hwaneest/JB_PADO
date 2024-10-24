@@ -1,32 +1,42 @@
 # - file: README
 - file: index
 
-- part: About_PADO
+- part: 01_About_PADO
   chapters: 
-  - file: chapters/01_about_pado/intro   						---> intro.md 파일.
-    title: About_PADO 											---> 제목 지정하기
+  - file: chapters/01_About_PADO/intro   		#				---> intro.md 파일.
+    title: About_PADO 											#---> 제목 지정하기
   #  sections:
-  - file: chapters/01_about_pado/ipynb_01
-  - file: chapters/01_about_pado/ipynb_02
-  - file: chapters/01_about_pado/ipynb_03
-  - file: chapters/01_about_pado/References
+  - file: chapters/01_About_PADO/notebook1
+  - file: chapters/01_About_PADO/notebook2
+  - file: chapters/01_About_PADO/notebook3
+  - file: chapters/01_About_PADO/References
 
-- part: Pre_PADO
+- part: 02_Pre_PADO
   chapters:
-  - file: chapters/02_pre_pado/intro   							---> intro.md 파일.
-    title: Pre_PADO 											---> 제목 지정하기
+  - file: chapters/02_PEOPLE/intro   							 #---> intro.md 파일.
+    title: PEOPLE 											           # ---> 제목 지정하기
   #  sections:
-  - file: chapters/02_pre_pado/ipynb_01
-  - file: chapters/02_pre_pado/ipynb_02
-  - file: chapters/02_pre_pado/ipynb_03
-  - file: chapters/02_pre_pado/References
+  - file: chapters/02_PEOPLE/notebook1
+  - file: chapters/02_PEOPLE/notebook2
+  - file: chapters/02_PEOPLE/notebook3
+  - file: chapters/02_PEOPLE/References
 
-- part: PADO_2025
+- part: 03_Pre_PADO
   chapters:
-  - file: chapters/03_pado_2025/intro  							---> intro.md 파일.
-    title: PADO_2025	 										---> 제목 지정하기
+  - file: chapters/03_Pre_PADO/intro                 #---> intro.md 파일.
+    title: PEOPLE                                  # ---> 제목 지정하기
   #  sections:
-  - file: chapters/03_pado_2025/ipynb_01
-  - file: chapters/03_pado_2025/ipynb_02
-  - file: chapters/03_pado_2025/ipynb_03
-  - file: chapters/03_pado_2025/References
+  - file: chapters/03_Pre_PADO/notebook1
+  - file: chapters/03_Pre_PADO/notebook2
+  - file: chapters/03_Pre_PADO/notebook3
+  - file: chapters/03_Pre_PADO/References
+
+- part: 04_PADO_2025
+  chapters:
+  - file: chapters/04_PADO_2025/intro                 #---> intro.md 파일.
+    title: PEOPLE                                  # ---> 제목 지정하기
+  #  sections:
+  - file: chapters/04_PADO_2025/notebook1
+  - file: chapters/04_PADO_2025/notebook2
+  - file: chapters/04_PADO_2025/notebook3
+  - file: chapters/04_PADO_2025/References
