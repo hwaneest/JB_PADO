@@ -3,8 +3,8 @@
 
 - part: 01_About_PADO
   chapters: 
-  - file: chapters/01_About_PADO/intro   		#				---> intro.md 파일.
-    title: About_PADO 											#---> 제목 지정하기
+  - file: chapters/01_About_PADO/intro
+    title: About_PADO
   #  sections:
   - file: chapters/01_About_PADO/notebook1
   - file: chapters/01_About_PADO/notebook2
@@ -13,8 +13,8 @@
 
 - part: 02_Pre_PADO
   chapters:
-  - file: chapters/02_PEOPLE/intro   							 #---> intro.md 파일.
-    title: PEOPLE 											           # ---> 제목 지정하기
+  - file: chapters/02_PEOPLE/intro
+    title: PEOPLE
   #  sections:
   - file: chapters/02_PEOPLE/notebook1
   - file: chapters/02_PEOPLE/notebook2
